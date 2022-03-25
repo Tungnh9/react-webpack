@@ -1,0 +1,57 @@
+$textColor: #2a1e17;
+
+.wrapper-login {
+  display: flex;
+  align-items: center;
+  gap: 6.3125rem;
+  padding: 7.68rem 0;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  padding: 7.5rem;
+  width: 37%;
+}
+
+.title {
+  color: $textColor;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: calc(46 / 38);
+  text-transform: capitalize;
+  padding-bottom: 28px;
+}
+
+.form-label {
+  color: $textColor;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  text-transform: capitalize;
+  padding-bottom: 8px;
+}
+
+.form-control {
+  padding-top: 30px;
+  padding-bottom: 28px;
+}
+
+.submit-form {
+  background: #f25019;
+  padding: 13px 0;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.banner {
+  width: 56%;
+}
+
+.danger {
+  color: #ff7f50;
+}
